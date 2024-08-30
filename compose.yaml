@@ -1,0 +1,29 @@
+#networks:
+#  swagger_study:
+
+services:
+  #  app:
+  #    container_name: "swagger-study"
+  #    build:
+  #      context: ./
+  #      dockerfile: Dockerfile
+  #    image: swagger_study
+  #    ports:
+  #      - "8080:8080"
+  #    networks:
+  #      - swagger_study
+
+  postgres:
+    container_name: "todolist_db"
+    restart: always
+    image: postgres:latest
+    environment:
+      - "POSTGRES_USER=todolist"
+      - "POSTGRES_PASSWORD=todolist"
+      - "POSTGRES_DB=todolist_db"
+    ports:
+      - "5432:5432"
+#    networks:
+#      - swagger_study
+#    volumes:
+#      - ./data/postgres:/var/lib/postgresql/data
