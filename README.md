@@ -35,6 +35,11 @@ uma API REST (CRUD) para o gerenciamento de tarefas.
 - Geração automática do Swagger com a OpenAPI 3
 - Testes unitários com JUnit 5 e Mockito
 
+## Instruções
+
+No seguinte arquivo [HELP](https://github.com/sergiotavuencas/desafio-simplify/blob/main/HELP.md) estão os passos
+necessários para rodar a aplicação.
+
 ## Github
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sergiotavuencas)](https://github.com/anuraghazra/github-readme-stats)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sergiotavuencas\&hide=issues\&show_icons=true)
