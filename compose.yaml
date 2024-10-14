@@ -1,29 +1,34 @@
-#networks:
-#  swagger_study:
-
 services:
-  #  app:
-  #    container_name: "swagger-study"
-  #    build:
-  #      context: ./
-  #      dockerfile: Dockerfile
-  #    image: swagger_study
-  #    ports:
-  #      - "8080:8080"
-  #    networks:
-  #      - swagger_study
+  app:
+    container_name: "todolist_api"
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: svt/desafio_simplify
+    ports:
+      - "8080:8080"
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=todolist_db
+      - DB_USERNAME=todolist
+      - DB_PASSWORD=todolist
+    networks:
+      - app_network
 
   postgres:
     container_name: "todolist_db"
     restart: always
     image: postgres:latest
     environment:
-      - "POSTGRES_USER=todolist"
-      - "POSTGRES_PASSWORD=todolist"
-      - "POSTGRES_DB=todolist_db"
+      - POSTGRES_USER=todolist
+      - POSTGRES_PASSWORD=todolist
+      - POSTGRES_DB=todolist_db
     ports:
       - "5432:5432"
-#    networks:
-#      - swagger_study
-#    volumes:
-#      - ./data/postgres:/var/lib/postgresql/data
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
