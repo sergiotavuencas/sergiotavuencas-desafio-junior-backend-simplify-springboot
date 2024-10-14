@@ -10,8 +10,14 @@
     <img src="https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=sonarlint&logoColor=white">
 </div>
 
-Desafio proposto pela Simplify para uma vaga de desenvolvedor backend junior. A proposta tem como intuito a criação de
-uma API REST (CRUD) para o gerenciamento de tarefas.
+Este projeto foi desenvolvido com o objetivo de aprofundar os conhecimentos em Spring Boot, seguindo o tutorial 
+ministrado por [Giuliana Bezerra](https://github.com/giuliana-bezerra). O tutorial visa resolver o desafio proposto 
+pela Simplify para uma vaga de desenvolvedor backend júnior. A proposta consiste na criação de uma API REST (CRUD) 
+para o gerenciamento de tarefas.
+
+Recentemente, evoluí o projeto para incluir a entidade `Account`, permitindo a relação entre tarefas e usuários, 
+transformando-o em um CRUD para tarefas e usuários. Além disso, adicionei testes unitários para garantir a 
+funcionalidade e a qualidade do código.
 
 ## Tecnologias
 
@@ -24,6 +30,10 @@ uma API REST (CRUD) para o gerenciamento de tarefas.
 - Docker
 - JUnit 5
 - Mockito
+
+## Referências
+- [Canal](https://www.youtube.com/@giulianabezerra)
+- [Tutorial](https://www.youtube.com/watch?v=YcI9b-lgi7w)
 
 ## Práticas Adotadas
 
