@@ -1,4 +1,5 @@
-# Desafio Lista de Tarefas pela Simplify
+# Task List Challenge - Simplify
+
 <div>
     <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
     <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
@@ -9,57 +10,52 @@
     <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white">
     <img src="https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=sonarlint&logoColor=white">
 </div>
+<br>
 
-Este projeto foi desenvolvido com o objetivo de aprofundar os conhecimentos em Spring Boot, seguindo o tutorial 
-ministrado por [Giuliana Bezerra](https://github.com/giuliana-bezerra). O tutorial visa resolver o desafio proposto 
-pela Simplify para uma vaga de desenvolvedor backend júnior. A proposta consiste na criação de uma API REST (CRUD) 
-para o gerenciamento de tarefas.
+This project was developed to deepen my knowledge in Spring Boot by following a tutorial led by [Giuliana Bezerra](https://github.com/giuliana-bezerra). The tutorial is designed to solve a challenge proposed by Simplify for a junior backend developer role. The challenge involves creating a REST API (CRUD) for task management.
 
-Recentemente, evoluí o projeto para incluir a entidade `Account`, permitindo a relação entre tarefas e usuários, 
-transformando-o em um CRUD para tarefas e usuários. Além disso, adicionei testes unitários para garantir a 
-funcionalidade e a qualidade do código.
+Recently, I enhanced the project to include an `Account` entity, allowing for a relationship between tasks and users, effectively transforming it into a CRUD application for both tasks and users. Additionally, I added unit tests to ensure functionality and code quality.
 
-## Tecnologias
+## Technologies
 
 - Spring Boot
 - Spring MVC
 - Spring Data JPA
 - SpringDoc OpenAPI 3
-- PostgresSQL
+- PostgreSQL
 - Flyway
 - Docker
 - JUnit 5
 - Mockito
 
-## Referências
-- [Canal](https://www.youtube.com/@giulianabezerra)
+## References
+- [Channel](https://www.youtube.com/@giulianabezerra)
 - [Tutorial](https://www.youtube.com/watch?v=YcI9b-lgi7w)
 
-## Práticas Adotadas
+## Best Practices
 
 - SOLID, DRY, YAGNI, KISS
-- API REST
-- Consultas com Spring Data JPA
-- Injeção de Dependências
-- Tratamento de respostas de erros
-- Geração automática do Swagger com a OpenAPI 3
-- Testes unitários com JUnit 5 e Mockito
+- REST API
+- Queries with Spring Data JPA
+- Dependency Injection
+- Error response handling
+- Automatic Swagger generation with OpenAPI 3
+- Unit tests with JUnit 5 and Mockito
 
-## Instruções
+## Instructions
 
-No seguinte arquivo [HELP](https://github.com/sergiotavuencas/desafio-simplify/blob/main/HELP.md) estão os passos
-necessários para rodar a aplicação.
+The following [HELP](https://github.com/sergiotavuencas/desafio-simplify/blob/main/HELP.md) file contains the steps required to run the application.
 
-## Github
+## GitHub
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sergiotavuencas)](https://github.com/anuraghazra/github-readme-stats)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sergiotavuencas\&hide=issues\&show_icons=true)
 
-## Contato
-Sinta-se livre para me contatar através de minhas redes sociais sobre dúvidas a respeito da minha carreira, em que projeto estou trabalhando, o que estou estudando, e se tiver alguma dica, seja sobre carreira ou uma melhoria nos códigos que desenvolvi.
+## Contact
+Feel free to reach out to me through my social media if you have questions about my career, projects I’m working on, what I’m studying, or any advice you might have, whether career-related or suggestions for improvements in my code.
 
 <div>
   <a href="http://www.linkedin.com/in/sergiotavuencas" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href="https://github.com/sergiotavuencas/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-  <a href = "mailto:sergio_tavuencas@outlook.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
-  <a href = "mailto:sergiovicentetavuencas@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="mailto:sergio_tavuencas@outlook.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
+  <a href="mailto:sergiovicentetavuencas@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div>
